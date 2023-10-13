@@ -1,0 +1,33 @@
+.poster-wrapper {
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.poster-img-wrapper {
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.poster-img-wrapper img {
+    width: 100%;
+}
+
+.poster-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+
+.poster-info *{
+    margin: 0;
+    padding: 0;
+}
+
+.poster-info button{
+    border: none;
+    background-color: cadetblue;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}

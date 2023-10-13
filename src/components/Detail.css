@@ -1,0 +1,32 @@
+.detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-poster-img-wrapper{
+    width: 50%;
+}
+
+.detail-poster-img-wrapper img{
+    width: 100%;
+}
+
+.detail-poster-info{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.detail-poster-info p{
+    text-align: justify;
+}
+
+button{
+    border: none;
+    background-color: cadetblue;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
